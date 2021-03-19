@@ -244,3 +244,27 @@ body::-webkit-scrollbar-thumb{
     padding-bottom: 20px;
     /* border: 1px solid yellow; */
 }
+
+
+.source{/*display: flex;*/ float: right;}
+
+.source li {
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.source li a {
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 5px solid #141414;
+    transition: 0.3s ease-in-out;
+}
+
+.source li a:hover{
+    transition: 0.4s ease-out;
+    box-shadow: 0 0 30px #181818;
+    background-color: #141414;
+}
