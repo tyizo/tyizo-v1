@@ -29,3 +29,14 @@ span.onclick = function()
 {
   modal.style.display = "none";
 };
+
+document.onmousedown = disableclick;
+stats = 'No hahaha, you can see the source at my github !!';
+function disableclick(event)
+{
+  if(event.button == 2)
+  {
+    alert(stats);
+    return false;
+  };
+};
