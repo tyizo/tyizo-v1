@@ -177,28 +177,6 @@ body::-webkit-scrollbar-thumb{
     from {transform:scale(0)}
     to {transform:scale(1)}
 }
-/* ------------------------------- */
-.content > h4 {
-    font-size: 45px;
-    margin-top: 25px;
-}
-.social {
-    margin-top: 30px;
-    font-size: 80px;
-}
-.instagram {
-    color: #ff00b3;
-    padding: 39px;
-}
-.twitter {
-    color: #26b3c5;
-}
-.github {
-    color: black;
-}
-.star{
-    color: #212121;
-}
 .heart {
     color: #fa4040;
 }
@@ -206,25 +184,16 @@ body::-webkit-scrollbar-thumb{
 /* For Responsive Website !. small , big phones and tablets. */
 @media only screen and (max-width: 600px) 
 {
-    .social {
-        display: grid;
-        text-align: center;
-    }
     
     .content {
         text-align: center;
-    }
-    
+    } 
     .msg {
         font-size: 30px;
     }
     .content > h4{
         font-size: 41px;
-    }
-    .hero-text{
-        font-size: 35px;
-    }
-    
+    }    
     .sidenav a {
         font-size: 50px;
     }
@@ -243,9 +212,8 @@ body::-webkit-scrollbar-thumb{
 .copyrights {
     color: #ffffff;
     font-size: 15px;
-    margin-top: 30px;
+    margin-top: 70px;
     padding-bottom: 20px;
-    /* border: 1px solid yellow; */
 }
 
 .drop-btn {
